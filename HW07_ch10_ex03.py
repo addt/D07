@@ -6,3 +6,21 @@
 # In your final submission:
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+def cumulative_list(lst):
+    cum_list = []
+    for i in range(1, len(lst)+1):
+        cum_list = cum_list + [sum(lst[:i])]
+    return cum_list
+
+
+#tt = [3,4,1,6,2,3,5]
+#print(cumulative_list(tt))
+
+
+def main():
+    pass
+    
+if __name__ == '__main__':
+    main()
+        
